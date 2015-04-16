@@ -1,0 +1,1 @@
+define("root/m1/m1",[],function(){console.log("m1")}),define(["./m1"]),define("root/m2/m2",[],function(){console.log("m2")}),define(["./m2"]),define(["./m1/module","./m2/module"]),requirejs(["./root/module"],function(){console.log("root")}),define("main",function(){});
